@@ -36,7 +36,7 @@ local tab_title = function(process_name, base_title, max_width, inset)
     end
 
     if found == false then
-        title = title .. process_name .. " " .. base_title
+        title = title .. process_name .. " - " .. base_title
     end
 
     if base_title:match("^Administrator: ") then

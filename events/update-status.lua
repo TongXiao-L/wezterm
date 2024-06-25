@@ -10,7 +10,7 @@ end
 
 local date = function()
     local date = wezterm.strftime(" %a %H:%M:%S")
-    push("#1e1e2e", "#cba6f7", { Intensity = "Bold" }, "  " .. date .. " ")
+    push("#11111b", "#f38ba8", { Intensity = "Bold" }, "  " .. date .. " ")
 end
 
 wezterm.on("update-status", function(window, pane)

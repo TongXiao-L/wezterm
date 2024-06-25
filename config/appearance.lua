@@ -15,7 +15,7 @@ return {
     -- tab bar --
     show_tab_index_in_tab_bar = false,
     use_fancy_tab_bar = false,
-    tab_max_width = 25,
+    tab_max_width = 30,
 
     -- window --
     window_decorations = "INTEGRATED_BUTTONS|RESIZE",
