@@ -13,9 +13,11 @@ if platform.is_win then
     config.default_prog = { "pwsh", "-nologo" }
 elseif platform.is_linux or platform.is_macos then
     config.launch_menu = {
-        { label = "Bash", args = { "bash" } }
+        { label = "Bash", args = { "bash" } },
+        { label = "Zsh",  args = { "zsh" } },
+        { label = "Fish", args = { "fish" } }
     }
-    config.default_prog = { "bash" }
+    config.default_prog = { "fish" }
 end
 
 return config
