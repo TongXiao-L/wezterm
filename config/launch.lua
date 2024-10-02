@@ -14,9 +14,10 @@ if platform.is_win then
 elseif platform.is_linux or platform.is_macos then
     config.launch_menu = {
         { label = "Bash", args = { "bash" } },
-        { label = "Fish", args = { "fish" } }
+        { label = "Fish", args = { "fish" } },
+	{ label = "Zellij", args = { "zellij" } }
     }
-    config.default_prog = { "fish" }
+    config.default_prog = { "zellij" }
 end
 
 return config
